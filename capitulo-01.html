@@ -32,7 +32,7 @@
   <link rel="icon" type="image/png" href="imgs/infinity32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="imgs/infinity16.png" sizes="16x16">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css\style.css">
 
 
 </head>
@@ -73,6 +73,9 @@
         <ul>
             <li><a href="#section1">Proposición 1.1</a></li>
             <li><a href="#section2">Proposición 1.2</a></li>
+            <li><a href="#section3">Proposición 1.3</a></li>
+            <li><a href="#section4">Proposición 1.4</a></li>
+            <li><a href="#section5">Proposición 1.5</a></li>
             <!-- Add more sections as needed. This must be done manually -->
         </ul>
     </div>
@@ -94,12 +97,15 @@
 
                 <h2>Proposición 1.1: CONSTRUYENDO UN TRIÁNGULO EQUILÁTERO.</h2>
 
-               
-
                 <figure>
-                    <img src="imgs/proposicion-1-1/proposicion-1-1.svg" alt="Proposición 1">
+                    <img src="imgs\proposicion-1-1\proposicion-1-1.svg" alt="Proposición 1">
                     <figcaption>Proposición 1</figcaption>
                 </figure>
+
+                <div class="proposition" id="proposicion-1-1">
+                    Dado un segmento arbitrario, es posible construir un triángulo equilátero
+                    sobre ese segmento.
+                </div>
 
                 <h2>Ejercicio 1</h2>
 
@@ -108,20 +114,19 @@
                     figura $\boxdot ACBF$ es un rombo.
                 </p>
 
-                <h3>Solución</h3>
-
                 <figure>
-                    <img src="imgs/proposicion-1-1/ejercicios/proposicion-1-1-1.svg" alt="Proposition 1.1,#1">
-                    <figcaption>Proposition 1.1,#1</figcaption>
+                    <img src="imgs\proposicion-1-1\ejercicios\proposicion-1-1-1.svg" alt="Proposition 1.1,#1">
+                    <figcaption>Proposición 1.1,#1</figcaption>
                 </figure>
 
-                <p class="justified-text">Puesto que A es el centro del círculo $\bigcirc A$, se deduce que
+                <div class="proof">Puesto que A es el centro del círculo $\bigcirc A$, se deduce que
                     $\overline{AF}=\overline{AB}$ $[Def. 1.33]$. Puesto que B es el centro del círculo $\bigcirc B$,
                     $\overline{BF}=\overline{AB}$ $[Def. 1.33]$. Puesto que
                     $\overline{AF}=\overline{BF}=\overline{AB}=\overline{AC}=\overline{BC}$, se deduce que $\boxdot
                     ACBF$ es
-                    un rombo. </p>
-
+                    un rombo.
+                </div>
+                
                 <h2>Ejercicio 2</h2>
 
                 <p class="justified-text">Si $\overline{CF}$ es construido y $\overline{AB}$ es extendido a las
@@ -130,26 +135,22 @@
                     CEF$
                     son equiláteros.</p>
 
-
-
-                <h3>Solución</h3>
-
                 <figure>
-                    <img src="imgs/proposicion-1-1/ejercicios/proposicion-1-1-2.svg" alt="Proposition 1.1,#2">
-                    <figcaption>Proposition 1.1,#2</figcaption>
+                    <img src="imgs\proposicion-1-1\ejercicios\proposicion-1-1-2.svg" alt="Proposition 1.1,#2">
+                    <figcaption>Proposición 1.1,#2</figcaption>
                 </figure>
 
-                <p class="justified-text"> Considera $\triangle CAD$, $\triangle DAF$ y $\triangle FAC$. Debido a
+                <div class="proof"> Considera $\triangle CAD$, $\triangle DAF$ y $\triangle FAC$. Debido a
                     que $A$ es
                     el centro del circulo $\bigcirc A$, $\overline{AC}=\overline{AD}=\overline{AF}$. Después,
                     Considera
-                    $\triangle ABC$ y $\triangle ABF$. Por $[1.32]$ y $[1.32. Cor. 6]$, $\angle CAD=\angle
+                    $\triangle ABC$ y $\triangle ABF$. Por $[1.32]$ y $[1.32, Cor. 6]$, $\angle CAD=\angle
                     DAF=\angle FAC$.
                     Puesto que $\overline{AC}=\overline{AD}=\overline{AF}$ y $\angle CAD=\angle DAF=\angle FAC$, se
                     deduce
                     que $\triangle CAD\cong\triangle DAF\cong\triangle FAC$ y
                     $\overline{CD}=\overline{DF}=\overline{FC}$.
-                    De este modo, $\triangle CDF$. Análogamente, esto se puede demostrar para $\triangle CEF$. </p>
+                    De este modo, $\triangle CDF$. Análogamente, esto se puede demostrar para $\triangle CEF$. </div>
 
 
 
@@ -161,15 +162,12 @@
                     equilátero.
                 </p>
 
-
-                <h3>Solución</h3>
-
                 <figure>
-                    <img src="imgs/proposicion-1-1/ejercicios/proposicion-1-1-3.svg" alt="Proposition 1.1,#3">
-                    <figcaption>Proposition 1.1,#3</figcaption>
+                    <img src="imgs\proposicion-1-1\ejercicios\proposicion-1-1-3.svg" alt="Proposition 1.1,#3">
+                    <figcaption>Proposición 1.1,#3</figcaption>
                 </figure>
 
-                <p class="justified-text">Por $[1.1, 1]$, $\triangle ABF$ es equilátero. Por $[1.32. Cor 6]$,
+                <div class="proof">Por $[1.1, 1]$, $\triangle ABF$ es equilátero. Por $[1.32, Cor 6]$,
                     $\angle
                     CAB=\angle BAF=\frac{2}{3}R=\angle CBA=\angle ABF$. Puesto que $\angle CAG=2R=\angle CBH$, se
                     deduce que
@@ -191,7 +189,7 @@
                     que
                     $\overline{CG}=\overline{GH}=\overline{HC}=2\overline{AB}$, Se deduce que $\bigtriangleup GCH$
                     es
-                    equilátero.</p>
+                    equilátero.</div>
 
                 =<h2>Ejercicio 4</h2>
 
@@ -199,16 +197,12 @@
                     $\overline{CF}^{2}=3\cdot\overline{AB}^{2}$.
                 </p>
 
-
-
-                <h3>Solución</h3>
-
                 <figure>
-                    <img src="imgs/proposicion-1-1/ejercicios/proposicion-1-1-4.svg" alt="Proposition 1.1,#4">
-                    <figcaption>Proposition 1.1,#4</figcaption>
+                    <img src="imgs\proposicion-1-1\ejercicios\proposicion-1-1-4.svg" alt="Proposition 1.1,#4">
+                    <figcaption>Proposición 1.1,#4</figcaption>
                 </figure>
 
-                <p class="justified-text">Considera $\bigtriangleup CGF$ y $\bigtriangleup CFH$. Puesto que
+                <div class="proof">Considera $\bigtriangleup CGF$ y $\bigtriangleup CFH$. Puesto que
                     $\overline{CG}=\overline{CH}$, se deduce que $\bigtriangleup CGF\cong\bigtriangleup CFH$. De tal
                     modo,
                     $\angle CFG=1R=\angle CFH$ y $\bigtriangleup CGF\cong\bigtriangleup CFH$ son triángulos
@@ -217,7 +211,7 @@
                     \overline{CF}^{2} &amp; =\overline{CH}^{2}-\overline{FH}^{2}\\ &amp;
                     =\left(2\cdot\overline{AB}\right)^{2}-\overline{AB}^{2}\\ &amp;
                     =4\cdot\overline{AB}^{2}-\overline{AB}^{2}\\
-                    &amp; =3\cdot\overline{AB}. \end{align*}</p>
+                    &amp; =3\cdot\overline{AB}. \end{align*}</div>
 
 
                 <h2>Ejercicio 5</h2>
@@ -226,16 +220,12 @@
                     $\overline{AB}$
                     y las circunferencias parciales de los dos círculos.</p>
 
-
-
-                <h3>Solución</h3>
-
                 <figure>
-                    <img src="imgs/proposicion-1-1/ejercicios/proposicion-1-1-5.svg" alt="Proposition 1.1,#5">
-                    <figcaption>Proposition 1.1,#5</figcaption>
+                    <img src="imgs\proposicion-1-1\ejercicios\proposicion-1-1-5.svg" alt="Proposition 1.1,#5">
+                    <figcaption>Proposición 1.1,#5</figcaption>
                 </figure>
 
-                <p class="justified-text">Considera los puntos medios $I$, $J$ y $K$ de $\overline{AB}$,
+                <div class="proof">Considera los puntos medios $I$, $J$ y $K$ de $\overline{AB}$,
                     $\overline{BC}$ y
                     $\overline{CA}$ respectivamente. Construye $\bigtriangleup IJK$. Después, construye los
                     bisectores
@@ -257,7 +247,7 @@
                     \begin{align*}\bigtriangleup
                     BOJ\cong\bigtriangleup JOC\cong\bigtriangleup COK\cong\bigtriangleup KOA\cong\bigtriangleup
                     AOI\cong\bigtriangleup IOB,\end{align*} esto se puede demostrar. Por lo tanto, $\bigcirc O$ Esta
-                    dentro de $ACB$.</p>
+                    dentro de $ACB$.</div>
 
 
             </div>
@@ -267,19 +257,212 @@
                 <h2>Proposición 1.2: 
                     CONSTRUCCIÓN DE UN SEGMENTO DE LÍNEA DE IGUAL LONGITUD A UN SEGMENTO DE LÍNEA ARBITRARIA.</h2>
                 <figure>
-                    <img src="imgs/proposicion-1-2/proposicion-1-2.svg" alt="Proposition 1.2">
-                    <figcaption>Proposition 1.2</figcaption>
+                    <img src="imgs\proposicion-1-2\proposicion-1-2.svg" alt="Proposition 1.2">
+                    <figcaption>Proposición 1.2</figcaption>
                 </figure>
 
 
-                <div class="proposition" id="proposicion-1-1">
-                    This is my proposition.
+                <div class="proposition" id="proposicion-1-2">
+                    Dado un punto arbitrario y un segmento arbitrario, es posible construir un segmento con:
+                    (1) un extremo siendo el previo punto dado
+                    (2) una longitud igual al segmento arbitrario dado.
                 </div>
+
+                <h2>Ejercicio 1</h2>
+
+                <p class="justified-text"> Demuestra $[1.2]$ para cuando $A$ es un punto sobre $\overline{BC}$.</p>
+
+                <figure>
+                    <img src="imgs\proposicion-1-2\ejercicios\proposicion-1-2-1.svg" alt="Proposition 1.2,#1">
+                    <figcaption>Proposición 1.2,#1</figcaption>
+                </figure>
+
+                <div class="proof">Sobre $\overline{AB}$ construye el triángulo equilátero $\triangle ABD$ $[1.1]$.
+                Con $B$ como el centro y $\overline{BC}$ el radio, construye $\bigcirc B$. Extiende $\overline{DB}$
+                hasta intersecar el circulo $\bigcirc B$ en $E$. $[Postulado\ 2\ de\ la\ sección\ 1.2]$. Con $D$ como el 
+                centro y $\overline{DE}$ como el radio, construye $\bigcirc D$. Extiende $\overline{DA}$ hasta
+                encontrarse con $\bigcirc D$ en $F$.
+
+                Puesto que $\overline{DE}$ y $\overline{DF}$ son radios de $\bigcirc D$, $\overline{DF}=\overline{DE}$ 
+                $[Def. 1.32]$. Debido a que $\triangle ABD$ es un triángulo equilátero, $\overline{DA}=\overline{DB}$
+                $[Def. 1.21]$. Por el $[Axioma\ 2\ de\ la\ Sección\ 1.3.1]$, deducimos que, \[\overline{DF}-\overline{DA}=
+                \overline{DE}-\overline{DB}.\]
+                Pero $\overline{DF}-\overline{DA}=\overline{AF}$ y $\overline{DE}-\overline{DB}=\overline{BE}$. 
+                Por el $[Axioma\ 5\ de\ la\ sección\ 1.3.1]$, deducimos que $\overline{AF}=\overline{BE}$.
+                Puesto que $\overline{BC}$ y $\overline{BE}$ son radios de $\bigcirc B$, $\overline{BC}=\overline{BE}$ 
+                $[Def. 1.32]$. Por el $[Axioma\ 9\ de\ la\ sección\ 1.3.1\ usando\ igualdades]$, deducimos que 
+                $\overline{AF}=\overline{BC}$.
+                </div>
+
 
 
 
             </div>
 
+            <div id="section3">
+
+                <h2>Proposición 1.3: 
+                    SUBDIVIDIENDO UN SEGMENTO DE LINEA.</h2>
+                <figure>
+                    <img src="imgs\proposicion-1-3\proposicion-1-3.svg" alt="Proposition 1.3">
+                    <figcaption>Proposición 1.3</figcaption>
+                </figure>
+
+
+                <div class="proposition" id="proposicion-1-3">
+                    Dado dos segmentos arbitrarios, desiguales, es posible subdividir el segmento mas largo de tal manera que uno de sus 
+                    sub-segmentos sea igual en longitud al segmentos más pequeño.
+                </div>
+
+                <h2>Ejercicio 1</h2>
+
+                <p class="justified-text"> Demuestra el $[1.3, Cor. 1]$.</p>
+
+                <figure>
+                    <img src="imgs\proposicion-1-3\ejercicios\proposicion-1-3-1.svg" alt="Proposition 1.3,#1">
+                    <figcaption>Proposición 1.3,#1</figcaption>
+                </figure>
+
+                <div class="proof">Puesto que $\overline{CG}$ es un segmento y $\overline{AB}$ es un rayo, $\overline{CG}&lt;\overline{AB}$ 
+                $[Def. 1.4]$.
+
+                Puesto que $\overline{CG}&lt;\overline{AB}$, por $[1.3]$ podemos construir $\overline{AE}=\overline{CG}$ sobre $\overline{AB}$.
+                </div>
+
+            </div>
+
+            <div id="section4">
+
+                <h2>Proposición 1.4: 
+                    EL TEOREMA "LADO-ANGULO-LADO" PARA LA CONGRUENCIA DE TRIÁNGULOS.</h2>
+                <figure>
+                    <img src="imgs\proposicion-1-4\proposicion-1-4.svg" alt="Proposition 1.4">
+                    <figcaption>Proposición 1.4</figcaption>
+                </figure>
+
+
+                <div class="proposition" id="proposicion-1-4">
+                    Si dos par de lados en dos triángulos son respectivamente iguales en longitud, y si el ángulo interior 
+                    correspondiente es igual en medida, entonces los triángulos son congruentes.
+                </div>
+
+                <h2>Ejercicio 1</h2>
+
+                <p class="justified-text"> Demuestra que la linea que biseca el ángulo vertical de un triángulo isosceles 
+                    también biseca la base perpendicularmente.</p>
+
+                <figure>
+                    <img src="imgs\proposicion-1-4\ejercicios\proposicion-1-4-1.svg" alt="Proposition 1.4,#1">
+                    <figcaption>Proposición 1.4,#1</figcaption>
+                </figure>
+
+                <div class="proof"> Construye los triángulos $\triangle ABD$ y $\triangle ACD$. Puesto que $\overline{AD}$
+                biseca el ángulo $\angle A$ de $\triangle ABC$, $\angle BAD = \angle CAD$. Puesto que $\triangle ABC$ es 
+                isosceles, $\overline{AB} = \overline{AC}$ $[Def. 1.21]$.  Además, $\triangle ABD$ y $\triangle ACD$ comparten
+                el lado en común $\overline{AD}$. Por $[1.4]$, $\triangle ABD \cong \triangle ACD$.
+
+                Puesto que $\triangle ABD \cong \triangle ACD$, $\overline{BD} = \overline{CD}$ y $\angle ADB = \angle ADC$.
+                Puesto que $\angle ADB$ y $\angle ADC$ son suplementarios, $\overline{AD} \perp \overline{BC}$.
+                </div>
+
+                <h2>Ejercicio 2</h2>
+
+                <p class="justified-text"> Si dos lados adyacentes de un cuadrilátero son iguales en longitud y la diagonal 
+                    biseca el ángulo entre ellos.</p>
+
+                <figure>
+                    <img src="imgs\proposicion-1-4\ejercicios\proposicion-1-4-2.svg" alt="Proposition 1.4,#2">
+                    <figcaption>Proposición 1.4,#2</figcaption>
+                </figure>
+
+                <div class="proof"> Construye los triángulos $\triangle ABD$ y $\triangle BCD$. Puesto que $\overline{BD}$
+                biseca el ángulo $\angle B$, $\angle ABD = \angle CBD$. Ademas, los triángulos comparten el lado en común
+                $\overline{BD}$ y $\overline{AB} = \overline{BC}$ por hipótesis. Por $[1.4]$, $\triangle ABD \cong \triangle BCD$.
+                Puesto que $\triangle ABD \cong \triangle BCD$, $\overline{AD} = \overline{CD}$.
+                </div>
+
+                <h2>Ejercicio 3</h2>
+
+                <p class="justified-text">Si dos segmentos son perpendiculares entre sí y si uno biseca al otro, demuestra que cualquier punto de cada segmento está a la misma distancia de los segmentos del otro segmento.</p>
+
+                <figure>
+                    <img src="imgs\proposicion-1-4\ejercicios\proposicion-1-4-3.svg" alt="Proposition 1.4,#3">
+                    <figcaption>Proposición 1.4,#3</figcaption>
+                </figure>
+
+                <div class="proof">Construye los triángulos $\triangle AFE$ y $\triangle BFE$. Puesto que $\overline{AB} \perp \overline{CD}$, $\angle FEA$ y $\angle FEB$ son ángulos rectos y $\angle FEA = \angle FEB$ $[Def. 1.14]$.
+
+                Ademas $\triangle AFE$ y $\triangle BFE$ comparten el lado en común $\overline{FE}$ y $\overline{AE}=\overline{BE}$ por hipótesis. Por $[1.4]$, $\triangle AFE \cong \triangle BFE$.
+
+                Puesto que $\triangle AFE \cong \triangle BFE$, $\overline{AF}=\overline{BF}$.
+                </div>
+
+                <h2>Ejercicio 4</h2>
+
+                <p class="justified-text">Si son construidos triángulos equiláteros en los lados de cualquier triángulo, demuestra que las distancias entre los vertices del triángulo original y los vertices opuestos de los triángulos equiláteros son iguales.</p>
+
+                <figure>
+                    <img src="imgs\proposicion-1-4\ejercicios\proposicion-1-4-4.svg" alt="Proposition 1.4,#4">
+                    <figcaption>Proposición 1.4,#4</figcaption>
+                </figure>
+
+                <div class="proof">Construye los segmentos $\overline{AE}$, $\overline{BF}$ y $\overline{CD}$ Considera los triángulos $\triangle ACD$ y $\triangle FAB$. Puesto que $\overline{AC} = \overline{FA}$, $\overline{AD} = \overline{AB}$ y $\angle CAD = \angle CAB + \angle BAD = \angle FAC + \angle CAB = \angle FAB$, por $[1.4]$, se deduce que  $\triangle ACD \cong \triangle FAB$. De este modo, $\overline{CD} = \overline{FB}$.
+
+                Considera los triángulos $\triangle ACE$ y $\triangle FCB$. Puesto que $\overline{AC} = \overline{FC}$, $\overline{CE} = \overline{CB}$ y $\angle ACE = \angle ACB + \angle BCE = \angle FCA + \angle ACB = \angle FCB$, por $[1.4]$, se deduce que  $\triangle ACE \cong \triangle FCB$. De este modo, $\overline{AE} = \overline{FB} = \overline{CD}$.
+                </div>
+
+            </div>
+
+            <div id="section5">
+
+                <h2>Proposición 1.5: 
+                    TRIÁNGULOS ISOSCELES I.</h2>
+                <figure>
+                    <img src="imgs\proposicion-1-5\proposicion-1-5.svg" alt="Proposition 1.5">
+                    <figcaption>Proposición 1.5</figcaption>
+                </figure>
+
+
+                <div class="proposition" id="proposicion-1-5">
+                    Si un triángulo es isosceles, entonces:
+                    
+                    (1) si los lados del triángulo distintos de la base son extendidos, los ángulos bajo la base son iguales en medida.
+                    
+                    (2) los ángulos en la base son iguales en medida.
+                </div>
+
+                <h2>Ejercicio 1</h2>
+
+                <p class="justified-text"> Demuestra que los ángulos en la base son iguales sin extender los lados.</p>
+
+                <figure>
+                    <img src="imgs\proposicion-1-5\ejercicios\proposicion-1-5-1.svg" alt="Proposition 1.5,#1">
+                    <figcaption>Proposición 1.5,#1</figcaption>
+                </figure>
+
+                <div class="proof">Sea $D$ un punto arbitrario en $\overline{AB}$. Divide el segmento $\overline{AC}$ por $G$ de tal manera que $\overline{AD}=\overline{AE}$ $[1.3]$.
+
+                Considera los triángulos $\triangle ADC$ y $\triangle AEB$. Puesto que $\overline{AB}=\overline{AC}$ por $[Def. 1.21]$, $\overline{AD}=\overline{AE}$ y $\angle A$ es el ángulo común compartido, $\triangle ADC \cong \triangle AEB$.
+
+                Puesto que $\triangle ADC \cong \triangle AEB$, $\overline{DC}=\overline{BE}$ y $\angle ADC = \angle AEB$. Por $[Def. 1.13]$, $\angle ADC + \angle CDB = \angle ADB$ y $\angle AEB + \angle BEC = \angle AEC$ son suplementarios y $\angle ADB = \angle AEC$.
+
+                Por $[Axioma\ 5\ de\ la\ Sección\ 1.3.1]$, tenemos
+
+                \begin{align*}
+                    \angle ADB &amp; =\angle AEC\\
+                    \angle ADC + \angle CDB &amp; =\angle BEC + \angle AEB\\
+                    \angle CDB &amp; =\angle BEC
+                \end{align*}.
+
+                Considera los triángulos $\triangle BDC$ y $\triangle CEB$. Puesto que $\overline{BD}=\overline{CE}$, $\overline{DC}=\overline{EB}$ y $\angle CDB =\angle BEC$, $\triangle BDC \cong \triangle CEB$ $[Def. 1.4]$.
+
+                Puesto que $\triangle BDC \cong \triangle CEB$, $\angle DBC = \angle ECB$.
+
+
+
+                </div>
+
+            </div>
 
         </article>
     </main>

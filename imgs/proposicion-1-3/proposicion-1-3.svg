@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210.26 139.05">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: gray;
+        stroke: #3400ca;
+        stroke-width: .5px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: TimesNewRomanPS-ItalicMT, 'Times New Roman';
+        font-size: 11.41px;
+        font-style: italic;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-width: .25px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-2" cx="61.86" cy="77.18" r="61.74"/>
+  <line class="cls-2" x1="61.86" y1="77.18" x2="112.73" y2="42.18"/>
+  <line class="cls-2" x1="38.76" y1="5.9" x2="100.94" y2="5.9"/>
+  <line class="cls-2" x1="61.86" y1="77.18" x2="198.22" y2="77.18"/>
+  <circle class="cls-1" cx="198.22" cy="77.18" r="2.43"/>
+  <circle class="cls-1" cx="61.86" cy="77.18" r="2.43"/>
+  <circle class="cls-1" cx="123.6" cy="77.18" r="2.43"/>
+  <circle class="cls-1" cx="112.73" cy="42.18" r="2.43"/>
+  <circle class="cls-1" cx="38.76" cy="5.9" r="2.43"/>
+  <circle class="cls-1" cx="100.94" cy="5.9" r="2.43"/>
+  <text class="cls-3" transform="translate(50.08 85.3)"><tspan x="0" y="0">A</tspan></text>
+  <text class="cls-4" transform="translate(203.29 81.06)"><tspan x="0" y="0">B</tspan></text>
+  <text class="cls-4" transform="translate(127.73 74.75)"><tspan x="0" y="0">E</tspan></text>
+  <text class="cls-4" transform="translate(118.96 42.18)"><tspan x="0" y="0">D</tspan></text>
+  <text class="cls-4" transform="translate(26.2 9.48)"><tspan x="0" y="0">C</tspan></text>
+  <text class="cls-4" transform="translate(105.87 10.68)"><tspan x="0" y="0">G</tspan></text>
+  <circle class="cls-1" cx="7.6" cy="47.71" r="2.43"/>
+  <text class="cls-4" transform="translate(11.8 54.69)"><tspan x="0" y="0">F</tspan></text>
+</svg>
